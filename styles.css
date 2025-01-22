@@ -1,0 +1,168 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #ff0000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.5em;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.hero button {
+  background-color: #ff0000;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.hero button:hover {
+  background-color: #d10000;
+}
+
+/* Pricing Plans */
+.plans {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.plans h2 {
+  font-size: 2.5em;
+}
+
+.plan-card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.plan-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+}
+
+.plan-card h3 {
+  font-size: 1.8em;
+  color: #ff0000;
+}
+
+.price {
+  font-size: 2em;
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-card li {
+  margin-bottom: 10px;
+}
+
+.plan-card button {
+  background-color: #ff0000;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.plan-card button:hover {
+  background-color: #d10000;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.testimonial-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial-card {
+  width: 300px;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial-card p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.customer {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.rating {
+  font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+  background-color: #ff0000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
